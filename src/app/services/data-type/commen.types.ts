@@ -1,5 +1,5 @@
 export type Banner = {
-    imagerUrl: string,
+    imageUrl: string,
     targetId: number,
     url: string
 };
