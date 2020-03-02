@@ -1,5 +1,4 @@
-import { Component, OnInit, TemplateRef, ViewChild, Input, Output, EventEmitter } from '@angular/core';
-import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
+import { Component, OnInit, TemplateRef, ViewChild, Input, Output, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-netease-carousel',
