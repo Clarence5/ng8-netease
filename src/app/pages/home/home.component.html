@@ -33,8 +33,17 @@
                         </a>
                         <i></i>
                     </div>
-                    <div class="down">
 
+                    <div class="down">
+                        <div class="down-wrap">
+                            <app-single-sheet 
+                                class="sheet-item"
+                                *ngFor="let item of songSheets"
+                                [sheet]="item"
+                            >
+
+                            </app-single-sheet>
+                        </div> 
                     </div>
                 </div>
             </div>
